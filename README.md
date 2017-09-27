@@ -13,15 +13,15 @@ Every 2 minor issues is worth 1 major issue. (So, for example, 3 minors + 1 majo
     - ex. `c` or `cost` vs. `costWordCents` or `costOfWordsInCents`
 - [ ] you disregard explicit instructions on the assignment
     - ex. forget to prompt when asked to
-- [ ] you use unreasonable variable types (
+- [ ] you use unreasonable variable types
     - ex. `double numKittens`
-- [ ] you don’t declare your variables when you actually use them (contrast to writing them all “at the top of the code” and then given them values later)
-- [ ] using code that does nothing useful or indicates a lack of knowledge
+- [ ] you don’t declare your variables when you actually use them, but instead do them all “at the top of the code” and then assign values later
+- [ ] using code that does nothing useful and/or indicates a lack of knowledge
     - ex. `double foo = (double)keyboard.nextDouble();`
 
 ## Minor Issues
 
-- [ ] you provide really unnecessary comments
+- [ ] you provide **truly** unnecessary comments
     - ex. `// put numCards * 3 into variable score` or `// declare variable numKittens`
 - [ ] you don’t use whitespace to separate your code into related “chunks”
 - [ ] you don’t use whitespace in your expressions to space out operators, variable names, etc
