@@ -16,7 +16,7 @@ Every 2 minor issues is worth 1 major issue. (So, for example, 3 minors + 1 majo
 - [ ] you use unreasonable variable types
     - ex. `double numKittens`
 - [ ] you don’t declare your variables when you actually use them, but instead do them all “at the top of the code” and then assign values later
-- [ ] using code that does nothing useful and/or indicates a lack of knowledge
+- [ ] you include code that does nothing useful and/or indicates a lack of knowledge
     - ex. `double foo = (double)keyboard.nextDouble();`
 
 ## Minor Issues
@@ -28,11 +28,11 @@ Every 2 minor issues is worth 1 major issue. (So, for example, 3 minors + 1 majo
     - ex. `int x=((3*y)/Math.min(4,length))+4*height` (really hard to read!)
 - [ ] you use inconsistent bracing styles
 - [ ] your prompts don’t have a space after them
-- [ ] your prompts move the cursor to the next line (ex. you use `println()`)
+- [ ] your prompts move the cursor to the next line (ex. you use `println()` instead of `print()` for prompts)
 
 ## Just Comments
 
-Some things in your code might be so minor that it would be cruel to ding you on them, but I do want you to be aware of them so that you can improve. Some examples:
+Some things in your code might be so minor that it would be cruel to ding you on them, but I _d_o want you to be aware of them so that you can improve. Some examples:
 - [ ] spelling mistakes (in comments, variables, constants)
 - [ ] your prompts aren’t user friendly (“name?” instead of “Please enter your name “, for example)
 
