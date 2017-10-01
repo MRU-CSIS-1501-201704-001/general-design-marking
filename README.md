@@ -4,10 +4,11 @@ Further explanation for the design portion of your marks.
 
 Every major issue I find bumps your design mark down by 1. (5 to a 4, 3 to a 2, etc.)  
 
-Every 2 minor issues is worth 1 major issue. (So, for example, 3 minors + 1 major is like 2 majors. Kinda like Sushi Go's tempura scoring!)
+Every 3 minor issues is worth 1 major issue. 
 
 ## Major Issues
 
+- [ ] you have 5 or more confusingly-named variables and/or constants
 - [ ] you don’t provide comments for things that are not obvious 
 - [ ] your variable and/or constant names aren’t expressive
     - ex. `c` or `cost` vs. `costWordCents` or `costOfWordsInCents`
@@ -16,11 +17,13 @@ Every 2 minor issues is worth 1 major issue. (So, for example, 3 minors + 1 majo
 - [ ] you use unreasonable variable types
     - ex. `double numKittens`
 - [ ] you don’t declare your variables when you actually use them, but instead do them all “at the top of the code” and then assign values later
+- [ ] you don't declare your constants at the top
 - [ ] you include code that does nothing useful and/or indicates a lack of knowledge
     - ex. `double foo = (double)keyboard.nextDouble();`
 
 ## Minor Issues
 
+- [ ] you have 2 to 4 confusingly-named variables and/or constants
 - [ ] you provide **truly** unnecessary comments
     - ex. `// put numCards * 3 into variable score` or `// declare variable numKittens`
 - [ ] you don’t use whitespace to separate your code into related “chunks”
