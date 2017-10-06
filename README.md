@@ -16,6 +16,7 @@ Every 3 minor issues is worth 1 major issue.
 - [ ] you don’t declare your variables when you actually use them, but instead do them all “at the top of the code” and then assign values later
 - [ ] you don't declare your constants at the top
 - [ ] you include code that does nothing useful and/or indicates a lack of knowledge
+- [ ] you **dare** to use (x == true) or (x == false) in your conditions
 
 ## Minor Issues
 
@@ -25,4 +26,3 @@ Every 3 minor issues is worth 1 major issue.
 - [ ] you don’t use whitespace in your expressions to space out operators, variable names, etc
 - [ ] you use inconsistent bracing styles
 - [ ] your prompts don’t have a space after them or move the cursor to the next line
-- [ ] you **dare** to use (x == true) or (x == false) in your conditions
