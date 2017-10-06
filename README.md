@@ -9,7 +9,7 @@ Every 3 minor issues is worth 1 major issue.
 ## Major Issues
 
 - [ ] you have 5 or more confusingly-named variables and/or constants
-- [ ] you don’t provide comments for things that are not obvious 
+- [ ] you don’t provide comments for things that are not obvious from the code itself 
 - [ ] your variable and/or constant names aren’t expressive
 - [ ] you disregard explicit instructions on the assignment
 - [ ] you use unreasonable variable types
