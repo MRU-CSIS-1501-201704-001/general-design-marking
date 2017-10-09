@@ -1,28 +1,29 @@
 # General Design Guidelines
 
-Further explanation for the design portion of your marks.  
+- [ ] read the assignment instructions (including notes) carefully; ignoring instructions is a Bad Idea
+- [ ] you should deliver the software you were asked to deliver - don't add extra features that aren't asked for
 
-Every major issue I find bumps your design mark down by 1. (5 to a 4, 3 to a 2, etc.)  
+- [ ] choose your constant and variable names carefully - they should be easy to understand, descriptive, and never lie
+- [ ] put all your constant declarations at the very top of your code (right after the run())
+- [ ] whenever possible, declare variables at first use
+- [ ] choose variable types that fit their purpose
+- [ ] replace magic numbers that have **meaning** with well-named constants; if you can't find a good name, it's probably not a magic number you need to replace!
 
-Every 3 minor issues is worth 1 major issue. 
+- [ ] you should briefly document things that aren't obvious and/or that come from external sources (a brief note and a URL is fine)
+- [ ] you don't need to comment code that already speaks for itself
 
-## Major Issues
+- [ ] strive for the ideal of "clean code": 
+   - "Clean code is simple and direct. Clean code reads like well-written prose." [Grady Booch]
+   - "You know you are working with clean code when [it]... turns out to be pretty much what you expected." [Ward Cunningham]
+- [ ] all else being equal, it is better to be expressive than clever
+- [ ] remove code that doesn't do anything
+- [ ] keep an eye out for duplicate code; remove it whenever possible (and if removing it doesn't hurt readability)
 
-- [ ] you have 5 or more confusingly-named variables and/or constants
-- [ ] you don’t provide comments for things that are not obvious from the code itself 
-- [ ] your variable and/or constant names aren’t expressive
-- [ ] you disregard explicit instructions on the assignment
-- [ ] you use unreasonable variable types
-- [ ] you don’t declare your variables when you actually use them, but instead do them all “at the top of the code” and then assign values later
-- [ ] you don't declare your constants at the top
-- [ ] you include code that does nothing useful and/or indicates a lack of knowledge
-- [ ] you **dare** to use (x == true) or (x == false) in your conditions
+- [ ] keep your inputs, outputs, and calculations separate
 
-## Minor Issues
+- [ ] use whitespace to improve readability, both within statments and between statements
+- [ ] don't use (x == true) or (x == false) in your code
+- [ ] be consistent: don't mix bracing styles, indentation, incrementation methods, etc.
 
-- [ ] you have 2 to 4 confusingly-named variables and/or constants
-- [ ] you provide **truly** unnecessary comments
-- [ ] you don’t use whitespace to separate your code into related “chunks”
-- [ ] you don’t use whitespace in your expressions to space out operators, variable names, etc
-- [ ] you use inconsistent bracing styles
-- [ ] your prompts don’t have a space after them or move the cursor to the next line
+- [ ] create prompts that are easy to understand by the end user
+
