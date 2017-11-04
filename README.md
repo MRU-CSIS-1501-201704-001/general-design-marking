@@ -5,7 +5,7 @@
 
 ---
 
-- [ ] choose your constant and variable names carefully - they should be easy to understand, descriptive, and never lie
+- [ ] choose your constant, variable, method, and parameter names carefully - they should be easy to understand, descriptive, and never lie
 - [ ] put all your constant declarations at the very top of your code (right after the run())
 - [ ] whenever possible, declare variables at first use
 - [ ] choose variable types that fit their purpose
@@ -23,7 +23,8 @@
    - "You know you are working with clean code when [it]... turns out to be pretty much what you expected." [Ward Cunningham]
 - [ ] all else being equal, it is better to be expressive than clever
 - [ ] remove code that doesn't do anything
-- [ ] keep an eye out for duplicate code; remove it whenever possible (and if removing it doesn't hurt readability)
+- [ ] keep an eye out for duplicate code; use well-named helper methods to capture the duplication in one place
+- [ ] capture complex code (steps, or even complex conditionals) in well-named helper methods
 
 ---
 
