@@ -13,6 +13,11 @@
 
 ---
 
+- [ ] keep your methods short - anything more than 20 lines and I'm gonna start getting cranky! Prefer lots of small, well-focused methods over larger globs.
+- [ ] likewise, keep your parameter lists short - anything over 3 (especially for the tennis scoring assignment) is highly suspect. Prefer methods that have 0 or 1 argument. 2 is OK. 3 is pushing it.
+
+---
+
 - [ ] you should briefly document things that aren't obvious and/or that come from external sources (a brief note and a URL is fine)
 - [ ] you don't need to comment code that already speaks for itself
 
